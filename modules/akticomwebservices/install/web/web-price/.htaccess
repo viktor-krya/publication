@@ -1,0 +1,23 @@
+Options -Indexes 
+ErrorDocument 404 /404.php
+
+<IfModule mod_php.c>
+  php_flag session.use_trans_sid off
+  php_value max_execution_time 460000000
+  php_value max_input_time 460000000
+  php_value upload_max_filesize 500M
+  php_value post_max_size 500M
+  php_value memory_limit 2048M
+  php_value post_max_size 20M
+</IfModule>
+
+<IfModule mod_php7.c>
+  php_flag session.use_trans_sid off
+  php_value max_execution_time 460000000
+  php_value max_input_time 460000000
+  php_value upload_max_filesize 500M
+  php_value post_max_size 500M
+  php_value memory_limit 2048M
+  php_value post_max_size 20M
+
+</IfModule>

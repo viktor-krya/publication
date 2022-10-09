@@ -1,0 +1,27 @@
+.non_check, .yes_check{
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    max-width: 250px;
+    width: 100%;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 0.25rem;
+}
+.non_check{
+    border-color: var(--theme-b-bd-primary);
+    background-color: var(--theme-b-bg-primary);
+    color: var(--theme-b-tx-primary);
+}
+.non_check{
+    border-color: #f9a91d;
+    background-color: #f9a91d;
+    color: var(--theme-b-tx-primary);
+}
+.yes_check{
+    border-color: #f9521d;
+    background-color: #f9521d;
+    color: var(--theme-b-tx-primary);
+}
